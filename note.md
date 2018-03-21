@@ -9,3 +9,9 @@ Access-Control-Allow-Origin。HTTP响应头，指定服务器端允许进行跨�
 
 #git
 git rm -r --cached .idea
+
+#win7
+修改win7用户密码：
+1. ubuntu live 启动系统；
+2. 修改c:\windows\system32\osk.exe为其他名字，修改c:\windows\system32\cmd.exe 为 osk.exe;
+3. 启动win7，左下角"快速访问"处点*打开放大镜*->*软键盘*,出现cmd窗口，使用命令 net user USERNAME NEW_PASSWORD 修改用户密码！
